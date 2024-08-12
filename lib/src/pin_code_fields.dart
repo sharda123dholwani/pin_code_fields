@@ -870,12 +870,10 @@ class _PinCodeTextFieldState extends State<PinCodeTextField>
                             widget.showPasteConfirmationDialog ? _showPasteDialog(data!.text!) : _paste(data!.text!);
                           }
                         }
-                      }
-                    } else {
+                        else {
                       _showPasteDialog(data!.text!);
                     }
                   }
-                }
                     : null,
                 child: Row(
                   mainAxisAlignment: widget.mainAxisAlignment,
